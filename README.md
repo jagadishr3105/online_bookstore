@@ -51,25 +51,25 @@
 **API Description:**
 
 *USER AUTHENTICATION*
-POST /register : new user registration
-POST /login : login exiting users
+1. POST /register: new user registration
+2. POST /login: login existing users
 
 *BOOKS*
-GET /books : fetch all books
-GET /books/id : fetch book by id
-POST /books : add a new book
-PUT /books/id : edit a book description
-DELETE /books/id : delete a book
+1. GET /books: fetch all books
+2. GET /books/id: fetch book by id
+3. POST /books: add a new book
+4. PUT /books/id: edit a book description
+5. DELETE /books/id: delete a book
 
 *CART*
-GET /cart : fetch all cart items
-POST /add_to_cart : add a new item to cart
-PUT /update_item : update quantity of cart items
-DELETE /remove_item : remove item from cart
+1. GET /cart: fetch all cart items
+2. POST /add_to_cart: add a new item to the cart
+3. PUT /update_item: update the quantity of cart items
+4. DELETE /remove_item: remove item from cart
 
 *ORDERS*
-GET /orders : fetch all orders
-POST /add_order : add a new order
-GET /orders/id : fetch an order by id
-PUT /orders/id : edit order details
-DELETE /orders/id : delete an order
+1. GET /orders: fetch all orders
+2. POST /add_order: add a new order
+3. GET /orders/id: fetch an order by id
+4. PUT /orders/id: edit order details
+5. DELETE /orders/id: delete an order
