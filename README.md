@@ -17,8 +17,11 @@
 
 5. Next we need to create a database for our project using the command:
    > create database book_store;
+   
    > show databases;
+   
    > exit
+
 6. Now create all the required tables and insert data in the database using the command:
    > mysql -u root -p book_store < online_bookstore/book_store.sql
 
