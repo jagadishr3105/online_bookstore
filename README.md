@@ -14,6 +14,7 @@
 3. Execute command ls and check whether the book_store.sql file is present, if not navigate to the SQL file location in the project
 4. Login to the MySQL server command line using the command:
    > mysql -u root -p
+
 5. Next we need to create a database for our project using the command:
    > create database book_store;
    > show databases;
@@ -29,10 +30,15 @@
 2. Open the project terminal.
 3. Run the following commands in the terminal:
    > python3 --version
+
    > python3 -m venv venv
+
    > source venv/bin/activate
+
    > pip3 install requirements.txt
+
    > python app.py
+
   *Backend is up and running!*
 
 4. This will start the server on your local machine.
