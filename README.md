@@ -45,4 +45,5 @@
   *Backend is up and running!*
 
 4. This will start the server on your local machine.
-5. Open Postman and import this collection: [https://api.postman.com/collections/17840735-2606b556-64b5-410a-bfa8-e132a79c23bf?access_key=PMAT-01HDHEQYXMAF1QRGK87BN9F043]
+5. Open Postman application and import this collection: [https://api.postman.com/collections/17840735-2606b556-64b5-410a-bfa8-e132a79c23bf?access_key=PMAT-01HDHEQYXMAF1QRGK87BN9F043]
+6. Use APIs to create data and fetch data from DB.
