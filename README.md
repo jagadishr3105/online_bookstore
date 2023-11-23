@@ -2,30 +2,10 @@
 
 **Project Requirements:**
 
-1. Install MySQL server on your local machine and set hostname as 'root'
-2. Install Python3 [https://www.python.org/downloads/]
-3. Download Pycharm or any IDE
-4. Download Postman
+1. Install Python3 [https://www.python.org/downloads/]
+2. Download Pycharm or any IDE
+3. Download Postman
 
-**Setup Database:**
-
-1. Open the terminal in your system
-2. Navigate to your project directory using the cd command eg. /online_bookstore
-3. Execute command ls and check whether the book_store.sql file is present, if not navigate to the SQL file location in the project
-4. Login to the MySQL server command line using the command:
-   > mysql -u root -p
-
-5. Next we need to create a database for our project using the command:
-   > create database book_store;
-   
-   > show databases;
-   
-   > exit
-
-6. Now create all the required tables and insert data in the database using the command:
-   > mysql -u root -p book_store < online_bookstore/book_store.sql
-
-*DB is set up done!*
 
 **Setup Backend:**
 
